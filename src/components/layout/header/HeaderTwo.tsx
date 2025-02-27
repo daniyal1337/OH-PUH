@@ -67,8 +67,9 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                         
                       </li>
                       <li className="navbar__item navbar__item--has-children nav-fade">
-                      
+                      <button>
                             <Link href="about-us">About us</Link>
+                        </button>
                           </li>
                       <li className="navbar__item navbar__item--has-children nav-fade">
                         <button
