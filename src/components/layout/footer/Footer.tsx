@@ -2,6 +2,8 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import logo from "public/images/logo.png";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -125,12 +127,15 @@ info.ohpuhleeez@gmail.com
                     <Link href="https://x.com/OhPuhleeez" target="_blank">
                       <i className="fa-brands fa-twitter"></i>
                     </Link>
-                    <Link href="https://www.youtube.com/channel/UCcWgld5oDzEShWgRAagFs_A?view_as=subscriber" target="_blank">
-                      <i className="fa-brands fa-youtube"></i>
-                    </Link>
-                    <Link href="https://www.instagram.com/ohpuhleeez/" target="_blank">
-                      <i className="fa-brands fa-instagram"></i>
-                    </Link>
+                    
+                    <a href="https://www.youtube.com/channel/UCcWgld5oDzEShWgRAagFs_A?view_as=subscriber" target="_blank" rel="noopener noreferrer">
+  <i className="fa-brands fa-youtube"></i>
+</a>
+<a href="https://www.instagram.com/ohpuhleeez" target="_blank" rel="noopener noreferrer">
+  <i className="fa-brands fa-instagram"></i>
+</a>
+
+                     
                   </div>
                 </div>
               </div>

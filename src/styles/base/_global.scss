@@ -1,7 +1,11 @@
 /* ==== 
  --------- (2.03) global styles start ---------
  ==== */
-
+ @media (max-width: 768px) {
+  img.logo-image {
+    max-width: 300% !important;
+  }
+}
 img {
   max-width: 100%;
   height: auto;

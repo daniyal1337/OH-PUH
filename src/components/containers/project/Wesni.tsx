@@ -15,9 +15,9 @@ import dfour from "public/images/projects/wen5.png";
 import dfive from "public/images/projects/wen6.png";
 
 
-import package1 from "public/images/projects/wen8.png";
-import package2 from "public/images/projects/wen7.png";
-import package3 from "public/images/projects/wen1.png";
+import package1 from "public/images/projects/wesnicclothing3.jpg";
+import package2 from "public/images/projects/wesnicclothing1.jpg";
+import package3 from "public/images/projects/wen8.png";
 
 const  Wesni = () => {
   return (
@@ -338,7 +338,7 @@ Developed a compelling narrative focusing on Wesnic's commitment to authentic In
 
                             <div className=" col-12 col-lg-7">
                             <div className="poster-small">
-                          <Image src={package1} alt="Image" />
+                          <Image style={{height:"60vh"}} src={package1} alt="Image" />
                          </div>
                             </div>
                             <div className="col-12 col-lg-5">
@@ -377,7 +377,7 @@ Added personalized recommendations based on browsing behavior and preferences to
                       </div>
                       <div className="col-12 col-lg-5">
                         <div className="poster-small">
-                          <Image src={package2} alt="Image" />
+                          <Image style={{height:"60vh"}} src={package2} alt="Image" />
                         </div>
                       </div>
                     </div>

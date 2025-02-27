@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import hrone from "public/images/projects/Samayra.jpg";
+import hrone from "public/images/projects/samayra.jpg";
 import hrthree from "public/images/projects/lamaya.jpg";
 import hrfour from "public/images/projects/lech1.jpg";
 import hrfive from "public/images/projects/mialma1.png";
@@ -20,6 +20,15 @@ import hrfifteen from "public/images/projects/payal1.png";
 import hrsixteen from "public/images/projects/ele1.jpg";
 import hrseventeen from "public/images/projects/spotlight1.jpg";
 import hreighteen from "public/images/projects/trends1.jpg";
+ import hrnineteen from "public/images/projects/pop-auto-new2.png";
+
+ import hrtwenty from "public/images/projects/2-03-2024_AG1198copy.jpg";
+ import hrtwentyone from "public/images/projects/skyn1.jpg";
+ import hrtwentytwo from "public/images/projects/qoqo.jpg";
+ import hrtwentythree from "public/images/projects/velvet.jpg";
+ import hrtwentyfour from "public/images/projects/inno.jpg";
+ 
+
 
 
 
@@ -325,6 +334,106 @@ const ProjectMain = () => {
           </h2>
         </div>
       </div>
+
+
+
+      <div className="project-sl__single">
+        <div className="thumb">
+          <Link href="pratham">
+            <Image src={hrnineteen} alt="Image" />
+          </Link>
+        </div>
+        <div className="content">
+          <h2>
+            <Link href="pratham">
+            Prtaham 
+              Test Prep
+            </Link>
+          </h2>
+        </div>
+      </div>
+      <div className="project-sl__single">
+        <div className="thumb">
+          <Link href="akriti">
+            <Image src={hrtwenty} alt="Image" />
+          </Link>
+        </div>
+        <div className="content">
+          <h2>
+            <Link href="akriti">
+            
+              Akriti Gulati
+            </Link>
+          </h2>
+        </div>
+      </div>
+
+       
+
+      <div className="project-sl__single">
+        <div className="thumb">
+          <Link href="sky">
+            <Image src={hrtwentyone} alt="Image" />
+          </Link>
+        </div>
+        <div className="content">
+          <h2>
+            <Link href="sky">
+            Skyn and Shower 
+               
+            </Link>
+          </h2>
+        </div>
+      </div>
+
+      <div className="project-sl__single">
+        <div className="thumb">
+          <Link href="qoqo">
+            <Image src={hrtwentytwo} alt="Image" />
+          </Link>
+        </div>
+        <div className="content">
+          <h2>
+            <Link href="qoqo">
+            Qoqo
+              Tech
+            </Link>
+          </h2>
+        </div>
+      </div>
+
+      <div className="project-sl__single">
+        <div className="thumb">
+          <Link href="velvet">
+            <Image src={hrtwentythree} alt="Image" />
+          </Link>
+        </div>
+        <div className="content">
+          <h2>
+            <Link href="velvet">
+            Velvet 
+              Imperial
+            </Link>
+          </h2>
+        </div>
+      </div>
+
+      <div className="project-sl__single">
+        <div className="thumb">
+          <Link href="inno">
+            <Image src={hrtwentyfour} alt="Image" />
+          </Link>
+        </div>
+        <div className="content">
+          <h2>
+            <Link href="inno">
+            Inno  
+              Health
+            </Link>
+          </h2>
+        </div>
+      </div>
+
       
     </section>
   );

@@ -15,9 +15,9 @@ import dfour from "public/images/projects/six3.png";
 import dfive from "public/images/projects/six2.png";
 
 
-import package1 from "public/images/projects/six6.png";
-import package2 from "public/images/projects/six7.png";
-import package3 from "public/images/projects/six8.png";
+import package1 from "public/images/projects/sixscentsmockup2.jpg";
+import package2 from "public/images/projects/sixscentsmockup3.jpg";
+import package3 from "public/images/projects/sixscentsmockup1.jpg";
 
 const  Thesixsc = () => {
   return (
@@ -347,7 +347,7 @@ Website Revamp & Luxury UX Design: Enhancing the online shopping experience for 
 
                             <div className=" col-12 col-lg-7">
                             <div className="poster-small">
-                          <Image src={package1} alt="Image" />
+                          <Image style={{height:"60vh"}}src={package1} alt="Image" />
                          </div>
                             </div>
                             <div className="col-12 col-lg-5">
@@ -383,12 +383,15 @@ Fragrance Discovery Tools: Interactive quizzes guiding customers to their signat
 SEO-Optimized Product Pages: Enhancing search rankings for high-intent buyers.
 
 Seamless Checkout Experience: Quick and secure purchasing process.
+Authentic Scent Reviews & Unboxings: Showcasing first impressions and in-depth scent breakdowns.
+
+Limited Edition Influencer Boxes: Exclusive collaborations to generate buzz and drive sales.
                           </p>
                         </div>
                       </div>
                       <div className="col-12 col-lg-5">
                         <div className="poster-small">
-                          <Image src={package2} alt="Image" />
+                          <Image style={{height:"60vh"}} src={package2} alt="Image" />
                         </div>
                       </div>
                     </div>
@@ -400,7 +403,7 @@ Seamless Checkout Experience: Quick and secure purchasing process.
 
                             <div className=" col-12 col-lg-7">
                             <div className="poster-small">
-                          <Image src={package3} alt="Image" />
+                          <Image  style={{height:"60vh"}} src={package3} alt="Image" />
                          </div>
                             </div>
                             <div className="col-12 col-lg-5">

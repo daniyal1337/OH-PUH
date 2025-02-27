@@ -15,9 +15,9 @@ import dfour from "public/images/projects/bella5.png";
 import dfive from "public/images/projects/bella6.png";
 
 
-import package1 from "public/images/projects/bella7.png";
-import package2 from "public/images/projects/bella8.png";
-import package3 from "public/images/projects/bella9.png";
+import package1 from "public/images/projects/bellaforte1.jpg";
+import package2 from "public/images/projects/bellaforte3.jpg";
+import package3 from "public/images/projects/bellaforte2.jpg";
 
 const  Bellaa = () => {
   return (
@@ -345,7 +345,7 @@ Website Revamp & UX Enhancement: Creating a seamless shopping experience to driv
 
                             <div className=" col-12 col-lg-7">
                             <div className="poster-small">
-                          <Image src={package1} alt="Image" />
+                          <Image style={{height:"60vh"}} src={package1} alt="Image" />
                          </div>
                             </div>
                             <div className="col-12 col-lg-5">
@@ -392,7 +392,7 @@ Trust-Building Elements: Customer testimonials, certifications, and in-depth ing
                       </div>
                       <div className="col-12 col-lg-5">
                         <div className="poster-small">
-                          <Image src={package2} alt="Image" />
+                          <Image style={{height:"60vh"}} src={package2} alt="Image" />
                         </div>
                       </div>
                     </div>
@@ -404,7 +404,7 @@ Trust-Building Elements: Customer testimonials, certifications, and in-depth ing
 
                             <div className=" col-12 col-lg-7">
                             <div className="poster-small">
-                          <Image src={package3} alt="Image" />
+                          <Image style={{height:"70vh"}} src={package3} alt="Image" />
                          </div>
                             </div>
                             <div className="col-12 col-lg-5">

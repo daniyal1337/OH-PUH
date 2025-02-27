@@ -15,8 +15,8 @@ import dfour from "public/images/projects/lam5.jpg";
 import dfive from "public/images/projects/lam2.jpg";
 
 
-import package1 from "public/images/projects/lam5.jpg";
-import package2 from "public/images/projects/lam3.jpg";
+import package1 from "public/images/projects/lamayaorganics2.jpg";
+import package2 from "public/images/projects/lamayaorganics1.jpg";
 import package3 from "public/images/projects/lam1.jpg";
 
 const  Lama = () => {
@@ -340,7 +340,7 @@ We worked with Lamaya to craft a compelling brand narrative that highlighted its
 
                             <div className=" col-12 col-lg-7">
                             <div className="poster-small">
-                          <Image src={package1} alt="Image" />
+                          <Image style={{height:"80vh"}} src={package1} alt="Image" />
                          </div>
                             </div>
                             <div className="col-12 col-lg-5">
@@ -377,7 +377,7 @@ User-Generated Content: Encouraged customers to share their skincare experiences
                       </div>
                       <div className="col-12 col-lg-5">
                         <div className="poster-small">
-                          <Image src={package2} alt="Image" />
+                          <Image style={{height:"60vh"}} src={package2} alt="Image" />
                         </div>
                       </div>
                     </div>
@@ -389,7 +389,7 @@ User-Generated Content: Encouraged customers to share their skincare experiences
 
                             <div className=" col-12 col-lg-7">
                             <div className="poster-small">
-                          <Image src={package3} alt="Image" />
+                          <Image style={{height:"55vh"}} src={package3} alt="Image" />
                          </div>
                             </div>
                             <div className="col-12 col-lg-5">

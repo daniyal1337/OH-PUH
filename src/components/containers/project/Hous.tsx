@@ -15,8 +15,8 @@ import dfour from "public/images/projects/hous3.png";
 import dfive from "public/images/projects/hous2.png";
 
 
-import package1 from "public/images/projects/hous6.png";
-import package2 from "public/images/projects/hous7.png";
+import package1 from "public/images/projects/houseofcelebs2.jpg";
+import package2 from "public/images/projects/houseofcelebs3.jpg";
 import package3 from "public/images/projects/hous8.jpeg";
 
 const  Hous = () => {
@@ -339,7 +339,7 @@ We created engaging content to showcase the luxurious features of the venue, emp
 
                             <div className=" col-12 col-lg-7">
                             <div className="poster-small">
-                          <Image src={package1} alt="Image" />
+                          <Image style={{height:"60vh"}} src={package1} alt="Image" />
                          </div>
                             </div>
                             <div className="col-12 col-lg-5">
@@ -379,7 +379,7 @@ Added a seamless event booking and reservation system where clients could select
                       </div>
                       <div className="col-12 col-lg-5">
                         <div className="poster-small">
-                          <Image src={package2} alt="Image" />
+                          <Image style={{height:"60vh"}} src={package2} alt="Image" />
                         </div>
                       </div>
                     </div>

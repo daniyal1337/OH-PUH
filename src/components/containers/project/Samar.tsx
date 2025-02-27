@@ -15,9 +15,9 @@ import dfour from "public/images/projects/sam10.jpg";
 import dfive from "public/images/projects/sam11.jpg";
 
 
-import package1 from "public/images/projects/sam12.jpg";
-import package2 from "public/images/projects/sam9.jpeg";
-import package3 from "public/images/projects/sam14.jpg";
+import package1 from "public/images/projects/samaryanaturals1.jpg";
+import package2 from "public/images/projects/samaryanaturals2.jpg";
+import package3 from "public/images/projects/sam12.jpg";
 
 const Samar = () => {
   return (
@@ -336,7 +336,7 @@ Influencer Marketing: Collaborating with influential beauty bloggers and experts
 
                             <div className=" col-12 col-lg-7">
                             <div className="poster-small">
-                          <Image src={package1} alt="Image" />
+                          <Image style={{height:"60vh"}} src={package1} alt="Image" />
                          </div>
                             </div>
                             <div className="col-12 col-lg-5">
@@ -367,7 +367,7 @@ Influencer Marketing: Collaborating with influential beauty bloggers and experts
                       </div>
                       <div className="col-12 col-lg-5">
                         <div className="poster-small">
-                          <Image src={package2} alt="Image" />
+                          <Image style={{height:"60vh"}}  src={package2} alt="Image" />
                         </div>
                       </div>
                     </div>

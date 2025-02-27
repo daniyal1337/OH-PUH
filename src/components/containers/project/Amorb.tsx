@@ -15,8 +15,8 @@ import dfour from "public/images/projects/amor5.png";
 import dfive from "public/images/projects/amor6.png";
 
 
-import package1 from "public/images/projects/amor7.png";
-import package2 from "public/images/projects/amor8.png";
+import package1 from "public/images/projects/amorblue2.jpg";
+import package2 from "public/images/projects/amorblue1.jpg";
 import package3 from "public/images/projects/amor9.png";
 
 const  Amorb = () => {
@@ -337,7 +337,7 @@ A content strategy was implemented to educate customers about perfume layering, 
 
                             <div className=" col-12 col-lg-7">
                             <div className="poster-small">
-                          <Image src={package1} alt="Image" />
+                          <Image style={{height:"60vh"}} src={package1} alt="Image" />
                          </div>
                             </div>
                             <div className="col-12 col-lg-5">
@@ -348,7 +348,9 @@ A content strategy was implemented to educate customers about perfume layering, 
                             Behind-the-scenes content showcasing the perfume-making process and the inspirations behind each scent.
 Customer testimonials featured in stories and posts to create authenticity.
 Scent challenges and interactive posts where followers shared their favorite Amor Blue fragrances using the brand’s hashtags.
-
+ <p>Brand Storytelling & Emotional Appeal
+We created compelling narratives around each fragrance, emphasizing the artistry and craftsmanship behind the brand. By focusing on how each scent encapsulates a specific emotion or memory, we invited customers to connect on a deeper level.
+SEO-Optimized Content & Blogs</p>
 
                             </p>
                             </div>
@@ -369,12 +371,17 @@ Designed to reflect the sophistication of the brand, the website features muted 
 Fragrance Discovery Tools
 Introduced interactive quizzes that helped customers find their perfect scent based on personality, occasion, and scent preferences.
                           </p>
+
+                          <p>
+                
+                The mission of Amor Blue is to transform the fragrance industry by creating scents that don’t just smell good but also tell a story. By offering a variety of perfumes for every personality, occasion, and mood, the brand aims to make fragrance an integral part of everyday life, evoking powerful emotions and memories.
+                </p>
                            
                         </div>
                       </div>
                       <div className="col-12 col-lg-5">
                         <div className="poster-small">
-                          <Image src={package2} alt="Image" />
+                          <Image style={{height:"60vh"}} src={package2} alt="Image" />
                         </div>
                       </div>
                     </div>
